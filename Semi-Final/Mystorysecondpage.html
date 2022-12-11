@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Story</title>
+    <style>
+        header {
+            height: 450px;
+            background-image: url(My.jpg);
+            background-size: cover;
+            background-size: 100% 100%;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        head {
+            display: inline-block;
+            justify-content: space-between;
+        }
+        nav {
+            background-color: grey;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            position: relative;
+            top: 307px;
+            
+        }
+        nav ul {
+            list-style-type: none;
+        }
+        nav ul li {
+            display: inline-block;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            transition: 0.5s all ease;
+        }
+        nav a:hover {
+            color: aqua;
+        }
+        div {
+            font-size: 100px;
+            position: relative;
+            
+            top: 20px;
+        }
+        div li {
+            list-style-type: none;
+            
+        }
+        div li a {
+            color: red;
+            font-style:normal;
+            text-decoration: none;
+            transition:0.5s all ease ;
+            background-color: black;
+            border-radius: 10PX;
+        }
+        h1.ms1 {
+            font-size: 50px;
+            position: relative;
+            text-align: center;
+            top: 50px;
+            border: 1px solid black;
+            background-color: aqua;
+        }
+        .first{
+            float: right;
+            width: 50%;
+            height: 50%;
+            padding: 10px;
+            font-size: 20px;
+            position: relative;
+            right: 150px;
+            top: 110px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            border-radius: 5px;
+        }
+        .firsts{
+            position: relative;
+            left: 50px;
+            top: 120px;
+            float: left;
+            width: 50%;
+            height: 50%;
+            padding: 10px;
+            font-size: 20px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            border-radius: 5px;
+        }
+        .firstss{
+            position: relative;
+            right: 150px;
+            top: 110px;
+            float: right;
+            width: 50%;
+            height: 50%;
+            padding: 10px;
+            font-size: 20px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            border-radius: 5px;
+        }
+        div.main2 {
+            margin-top: 80px;
+        }
+        div.main3 {
+            margin-top: 80px;
+        }
+        img {
+            position: relative;
+            left: 100px;
+            top: 60px;
+            height: 400px;
+            width:400px;
+            border: 5px solid black;
+            border-radius: 5px;
+        }
+        @media only screen and (max-width: 1281px){
+            img {
+                top: 150px;
+            }
+            h1.ms1{
+                top: 20px;
+            }
+            h1.first {
+                left: -10px;
+                top: 195px;
+            }
+            h1.firsts {
+                left: -1px;
+                top: 195px;
+            }
+            h1.firstss {
+                left: -10px;
+                top: 195px;
+            }
+        }
+
+        @media only screen and (max-width: 1086px){
+       
+            img {
+                top: 150px;
+            }
+            h1.ms1{
+                top: 20px;
+            }
+            h1.first {
+                left: -10px;
+                top: 195px;
+            }
+            h1.firsts {
+                left: -1px;
+                top: 195px;
+            }
+            h1.firstss {
+                left: -10px;
+                top: 195px;
+            }
+            nav ul li {
+                display:flex;
+            }
+        }
+            @media only screen and (max-width: 913px){
+                img {
+                top: 300px;
+            }
+            h1.ms1{
+                top: 190px;
+            }
+            h1.first {
+ 
+                top: 200px;
+            }
+            h1.firsts {
+                top: 200px;
+            }
+            h1.firstss {
+ 
+                top: 200px;
+            }
+
+        }  
+        @media only screen and (max-width: 821px){
+            img {
+                top: 300px;
+            }
+            h1.ms1{
+                top: 190px;
+            }
+            h1.first {
+ 
+                top: 200px;
+            }
+            h1.firsts {
+                top: 200px;
+            }
+            h1.firstss {
+ 
+                top: 200px;
+            }
+
+        }
+        @media only screen and (max-width: 750px){
+            .first {
+            width: 90%;
+            height: 90%;
+            padding: 10px;
+            right: 0;
+            font-size: 15px;
+            position: relative;
+            top: 70px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            border-radius: 5px;
+            }
+            .firsts {
+            width: 90%;
+            height: 90%;
+            padding: 10px;
+            font-size: 15px;
+            position: relative;
+            left: 0;
+            top: 55px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            border-radius: 5px;
+            }
+            .firstss {
+            
+            width: 90%;
+            height: 90%;
+            padding: 10px;
+            font-size: 15px;
+            position: relative;
+            right: 0;
+            top: 55px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            border-radius: 5px;
+            }
+            img {
+            position: relative;
+            left: 0;
+            top: 100px;
+            height: 350px;
+            width:350px;
+            border: 5px solid black;
+            border-radius: 5px;
+            }
+            h1.ms1 {
+                top: 90px;
+
+            }
+
+        }
+        @media only screen and (max-width: 541px){
+            img {
+                top: 250px;
+            }
+            h1.ms1{
+                top: 190px;
+            }
+            h1.first {
+                left: -10px;
+                top: 195px;
+            }
+            h1.firsts {
+                left: -1px;
+                top: 195px;
+            }
+            h1.firstss {
+                left: -10px;
+                top: 195px;
+            }
+        }
+        @media only screen and (max-width: 415px){
+            img {
+                top: 250px;
+            }
+            h1.ms1{
+                top: 190px;
+            }
+            h1.first {
+                left: -10px;
+                top: 195px;
+            }
+            h1.firsts {
+                left: -1px;
+                top: 195px;
+            }
+            h1.firstss {
+                left: -10px;
+                top: 195px;
+            }
+        }
+        @media only screen and (max-width: 376px){
+            img {
+                top: 250px;
+            }
+            h1.ms1{
+                top: 190px;
+            }
+            h1.first {
+                left: 0;
+                top: 195px;
+            }
+            h1.firsts {
+                left: 0;
+                top: 195px;
+            }
+            h1.firstss {
+                left: 0;
+                top: 195px;
+            }
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <li><a href="MyStory.html">M.F</a></li>
+        </div>
+        <nav class="sidenav" id="sidebar">
+            <ul>
+                <li><a href="Mystorysecondpage.html">My Story</a></li>
+                <li><a href="thirdpage.html">Pictures of my Family</a></li>
+                <li><a href="fourthpage.html">My Hobby</a></li>
+                <li><a href="fifthpage.html">Memories of my Friends</a></li>
+                <li><a href="sixthpage.html">Detailed Information About me</a></li>
+            </ul>
+            
+        </nav>  
+        
+    </header>
+</body>
+<body>
+    <h1 class="ms1">"MY STORY"</h1>
+    <div class="main1">
+        <h1 class="first">Lorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus vel</h1>
+    </div>
+    <div class="img1">
+        <img src="My.jpg" alt="">
+    </div>
+</body>
+<body>
+    <div class="main2">
+        <h1 class="firsts">Lorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus vel</h1>
+        <div class="img2">
+            <img src="My.jpg" alt="">
+        </div>
+    </div>
+</body>
+<body>
+    <div class="main3">
+        <h1 class="firstss">Lorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus velLorem ipsum sit amet consectetur adipising elit. Ratione ut quidern.veniam numquam
+            neque blanditis. Neque quis fugiat ipsum nulla sapiente provident quo inventore optio,
+            atque ut ducimus vel</h1>
+
+            <img src="My.jpg" alt="">
+        
+    </div>
+</body>
+</html>
